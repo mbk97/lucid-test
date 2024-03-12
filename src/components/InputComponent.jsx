@@ -50,12 +50,12 @@ const InputComponent = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center text-[3rem]">
+        <h1 className="text-center lg:text-[3rem] text-[1.7rem] mt-4">
           Lucid Auto-Complete Application
         </h1>
         <div className="flex justify-center items-center">
           <div
-            className={`border w-[900px]  ${
+            className={`border lg:w-[900px]  ${
               inputValue.length > 0 && "gap-4"
             } flex items-center p-4 mt-10`}
           >
@@ -91,7 +91,7 @@ const InputComponent = () => {
           {query &&
             filteredResult?.map((text) => {
               return (
-                <div key={text.id} className="w-[900px] p-4">
+                <div key={text.id} className="lg:w-[900px] p-4">
                   <p
                     className=" cursor-pointer "
                     onClick={() => handleClick(text.name)}
