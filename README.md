@@ -4,7 +4,7 @@ Lucid Autocomplete
 
 # Demo Link
 
-The link to the live project 
+The link to the live project  https://lucid-test-ten.vercel.app/
 
 # About The App
 
